@@ -1,0 +1,57 @@
+:root {
+  --primary-main: #3de7f2;
+  --primary-dark: #2aa1a9;
+  --primary-light: #63ebf4;
+  --secondary-main: #2a62a9;
+  --primary-dark: #2aa1a9;
+  --primary-light: #63ebf4;
+  --main-white: #f0f0f0;
+  --background-main: #0b192b;
+  --background-dark: #03070c;
+  --background-light: #0f223b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* 980px/16px = 26.56em*/
+@media (max-width: 61.25em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 760/16px = 47.5em */
+@media (max-width: 47.5em) {
+  html {
+    font-size: 58%;
+
+  }
+}
+
+/* 425px/16px = 26.56em */
+@media (max-width:  26.56em ) {
+  html {
+    font-size: 55%;
+  }
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.8rem;
+  color: var(--main-white);
+  background-color: var(--background-main);
+}
+
+h1,h2 {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
