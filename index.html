@@ -1,38 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <title>Juan C. Guaña</title>
-</head>
-<body>
-  <header>
-    <div class="container-header">
-      <figure class="logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <title>Juan C. Guaña</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <!-- <figure class="logo">
         <img src="https://res.cloudinary.com/jnk/image/upload/v1617383005/Marca/jnk-logo_i6eu0i.png" alt="Logo de https://juanc.guana.com">
-      </figure>
-      <nav id="navbar">
-        <ul>
-          <li><a href="#welcome-section">Sobre mi</a></li>
-          <li><a href="#jobs">Experiencia</a></li>
-          <li><a href="#projects">Portafolio</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section class="hero" id="welcome-section">
-      <h1>Hola soy Juan C. Guaña</h1>
-      <p>Desarrollador web</p>
-    </section>
-    <section class="projects-section" id="projects">
-    </section>
-  </main>
-</body>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      </figure> -->
+        <nav id="navbar">
+          <ul class="nav-list">
+            <li><a href="#welcome-section">Sobre mi</a></li>
+            <li><a href="#projects">Portafolio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="welcome-section">
+        <span class="text-hero__color">Hola, me llamo</span>
+        <br />
+        <h1>Juan C. Guaña</h1>
+        <br />
+        <h2 class="text-hero__color">Desarrollador web</h2>
+        <br />
+        <p>
+          Soy un ingeniero TICs con sede en la mitad del mundo
+          <i
+            class="em em-flag-ec"
+            aria-role="presentation"
+            aria-label="Ecuador Flag"
+          ></i>
+          , construyo experiencias digitales con una gran pasión por el mundo
+          tech 🤓. Actualmente, trabajo en
+          <strong>
+            <a
+              class="link-hero__color"
+              href="https://initgrammers.com/"
+              target="_blank"
+              style="color: var(--primary-main)"
+              >InitGrammers</a
+            ></strong
+          >
+          y me enfoco en el desarrollo Front-end para crear productos accesibles
+          y orientados al usuario.
+        </p>
+      </section>
+      <section class="projects-section" id="projects">
+        <h3>
+          Algunos proyectos que he desarrollado
+        </h3>
+        <div id="project-grid">
+          <a
+            class="project-tile"
+            target="_blank"
+            href="https://frosty-brahmagupta-fc86c0.netlify.app/"
+            ><article>
+              <figure>
+                <img
+                  src="https://res.cloudinary.com/jnk/image/upload/v1617396273/Marca/react-course-front_myp5g2.png"
+                  alt="Vista previa React Course Front-end"
+                />
+                <figcaption>
+                  <span class="code">&lt;</span>React Course Front-end<span
+                    class="code"
+                    >&#47;&gt;</span
+                  >
+                </figcaption>
+              </figure>
+            </article></a
+          >
+          <a
+            class="project-tile"
+            target="_blank"
+            href="https://juanguana.github.io/gif-app/"
+            ><article>
+              <figure>
+                <img
+                  src="https://res.cloudinary.com/jnk/image/upload/v1617396273/Marca/gif-app_st1qzb.png"
+                  alt="Vista previa Gif App"
+                />
+                <figcaption>
+                  <span class="code">&lt;</span>Gif App<span class="code"
+                    >&#47;&gt;</span
+                  >
+                </figcaption>
+              </figure>
+            </article></a
+          >
+          <a
+            class="project-tile"
+            target="_blank"
+            href="https://juanguana.github.io/mobilefirst/"
+            ><article>
+              <figure>
+                <img
+                  src="https://res.cloudinary.com/jnk/image/upload/v1617396273/Marca/batata-bit_qftfzy.png"
+                  alt="Vista previa Batata bit"
+                />
+                <figcaption>
+                  <span class="code">&lt;</span>Batata bit Landing Page<span
+                    class="code"
+                    >&#47;&gt;</span
+                  >
+                </figcaption>
+              </figure>
+            </article></a
+          >
+          <a
+            class="project-tile"
+            target="_blank"
+            href="https://juanguana.github.io/geolocation-pwa/"
+            ><article>
+              <figure>
+                <img
+                  src="https://res.cloudinary.com/jnk/image/upload/v1617396273/Marca/screen-lock-geo-pwa_ct5cew.png"
+                  alt="Vista previa Geo PWA"
+                />
+                <figcaption>
+                  <span class="code">&lt;</span>Screen Lock Geo PWA<span
+                    class="code"
+                    >&#47;&gt;</span
+                  >
+                </figcaption>
+              </figure>
+            </article></a
+          >
+          <a class="project-tile" target="_blank" href=""
+            ><article>
+              <figure>
+                <img
+                  src="https://assets.codepen.io/4351807/internal/screenshots/pens/GRNmJXK.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1613496582&width=960"
+                  alt="Vista previa Simon dice"
+                />
+                <figcaption>
+                  <span class="code">&lt;</span>Simon dice<span class="code"
+                    >&#47;&gt;</span
+                  >
+                </figcaption>
+              </figure>
+            </article></a
+          >
+          <a class="project-tile" target="_blank" href=""
+            ><article>
+              <figure>
+                <img
+                  src="https://assets.codepen.io/4351807/internal/screenshots/pens/PoWNeeB.default.png?fit=cover&format=auto&ha=false&height=540&quality=75&v=2&version=1617373217&width=960"
+                  alt="Vista previa Documentation page"
+                />
+                <figcaption>
+                  <span class="code">&lt;</span>Documentation Page<span
+                    class="code"
+                    >&#47;&gt;</span
+                  >
+                </figcaption>
+              </figure>
+            </article></a
+          >
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h3>Pongamonos en contacto</h3>
+        <p>
+          Estoy abierto a nuevas oportunidades. Ya sea que tengas una pregunta o
+          enviar saludos, ¡haré todo lo posible para responderle!
+        </p>
+        <div class="contact-links">
+          <a
+            href="https://www.linkedin.com/in/juancguana/"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-linkedin"></i> Linkedin</a
+          >
+          <a
+            id="profile-link"
+            href="https://github.com/JuanGuana"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-github"></i> GitHub</a
+          >
+          <a
+            href="https://twitter.com/juancguana"
+            target="_blank"
+            class="btn contact-details"
+            ><i class="fab fa-twitter"></i> Twitter</a
+          >
+          <a href="mailto:juanc.guana@gmail.com" class="btn contact-details"
+            ><i class="fas fa-at"></i> Email</a
+          >
+          <a href="tel:+539959299792" class="btn contact-details"
+            ><i class="fas fa-mobile-alt"></i> Llamada</a
+          >
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <p>
+      &copy; Creado por
+      <a href="https://www.juanc,guana.com/" target="_blank"
+        >Juan C. Guaña</a>
+    </p>
+    <p>Workin from home</p>
+    <p>Quito - Ecuador</p>
+    <p>2021</p>
+  </footer>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
